@@ -46,13 +46,15 @@ public class OrderQueryResult extends ResultInfo {
             this.tradeType = map.get("trade_type");
 
             this.tradeState = map.get("trade_state");
-            this.bankType = map.get("bank_type");
-            this.totalFee = Integer.valueOf(map.get("total_fee"));
+            if ("SUCCESS".equals(this.getTradeState()) || "REFUND".equals(this.getTradeState())){
+                this.bankType = map.get("bank_type");
+                this.totalFee = Integer.valueOf(map.get("total_fee"));
 
-            this.transactionId = map.get("transaction_id");
-            this.outTradeNo = map.get("out_trade_no");
+                this.transactionId = map.get("transaction_id");
+                this.outTradeNo = map.get("out_trade_no");
 
-            this.timeEnd = map.get("time_end");
+                this.timeEnd = map.get("time_end");
+            }
         }
     }
 
