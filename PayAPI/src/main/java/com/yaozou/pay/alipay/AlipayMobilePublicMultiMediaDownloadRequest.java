@@ -2,12 +2,12 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2014 All Rights Reserved.
  */
-package com.yanwei.pay.alipay;
+package com.yaozou.pay.alipay;
 
 import java.io.OutputStream;
 import java.util.Map;
 
-import com.yanwei.pay.alipay.internal.util.AlipayHashMap;
+import com.yaozou.pay.alipay.internal.util.AlipayHashMap;
 
 /**
  * 多媒体文件下载请求
@@ -131,14 +131,14 @@ public class AlipayMobilePublicMultiMediaDownloadRequest implements
     }
 
     /** 
-     * @see com.yanwei.pay.alipay.AlipayRequest#isNeedEncrypt()
+     * @see com.yaozou.pay.alipay.AlipayRequest#isNeedEncrypt()
      */
     public boolean isNeedEncrypt() {
         return false;
     }
 
     /** 
-     * @see com.yanwei.pay.alipay.AlipayRequest#setNeedEncrypt(boolean)
+     * @see com.yaozou.pay.alipay.AlipayRequest#setNeedEncrypt(boolean)
      */
     public void setNeedEncrypt(boolean needEncrypt) {
 

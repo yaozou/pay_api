@@ -1,4 +1,4 @@
-package com.yanwei.pay.alipay.internal.util;
+package com.yaozou.pay.alipay.internal.util;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -30,8 +30,8 @@ import javax.net.ssl.SSLSocketFactory;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
 
-import com.yanwei.pay.alipay.AlipayConstants;
-import com.yanwei.pay.alipay.FileItem;
+import com.yaozou.pay.alipay.AlipayConstants;
+import com.yaozou.pay.alipay.FileItem;
 
 /**
  * 网络工具类。

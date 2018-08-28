@@ -1,4 +1,4 @@
-package com.yanwei.pay.alipay;
+package com.yaozou.pay.alipay;
 
 /**
  * 响应解释器接口。响应格式可以是JSON, XML等等。

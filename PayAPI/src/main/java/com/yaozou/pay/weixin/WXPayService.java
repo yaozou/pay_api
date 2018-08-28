@@ -1,9 +1,9 @@
-package com.yanwei.pay.weixin;/**
+package com.yaozou.pay.weixin;/**
  * created by yaozou on 2018/5/21
  */
 
-import com.yanwei.pay.weixin.impl.WXPayConfigImpl;
-import com.yanwei.pay.weixin.model.*;
+import com.yaozou.pay.weixin.impl.WXPayConfigImpl;
+import com.yaozou.pay.weixin.model.*;
 
 import java.util.HashMap;
 import java.util.Map;

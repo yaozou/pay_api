@@ -1,8 +1,8 @@
-package com.yanwei.pay.weixin.model;/**
+package com.yaozou.pay.weixin.model;/**
  * created by yaozou on 2018/5/21
  */
 
-import com.yanwei.pay.weixin.WXPayConstants;
+import com.yaozou.pay.weixin.WXPayConstants;
 
 import java.util.Map;
 

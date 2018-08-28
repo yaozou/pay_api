@@ -1,8 +1,8 @@
-package com.yanwei.pay.alipay.response;
+package com.yaozou.pay.alipay.response;
 
-import com.yanwei.pay.alipay.internal.mapping.ApiField;
+import com.yaozou.pay.alipay.internal.mapping.ApiField;
 
-import com.yanwei.pay.alipay.AlipayResponse;
+import com.yaozou.pay.alipay.AlipayResponse;
 
 /**
  * ALIPAY API: alipay.trade.cancel response.

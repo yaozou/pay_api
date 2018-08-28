@@ -1,4 +1,4 @@
-package com.yanwei.pay.alipay.internal.util;
+package com.yaozou.pay.alipay.internal.util;
 
 /**
  * 字符串工具类。

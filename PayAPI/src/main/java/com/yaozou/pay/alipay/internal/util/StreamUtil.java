@@ -2,7 +2,7 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2012 All Rights Reserved.
  */
-package com.yanwei.pay.alipay.internal.util;
+package com.yaozou.pay.alipay.internal.util;
 
 import java.io.IOException;
 import java.io.InputStream;

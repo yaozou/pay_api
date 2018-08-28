@@ -1,4 +1,4 @@
-package com.yanwei.pay.alipay;
+package com.yaozou.pay.alipay;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -31,14 +31,14 @@ import javax.net.ssl.SSLSession;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
 
-import com.yanwei.pay.alipay.internal.parser.json.ObjectJsonParser;
-import com.yanwei.pay.alipay.internal.util.AlipayHashMap;
-import com.yanwei.pay.alipay.internal.util.AlipayLogger;
-import com.yanwei.pay.alipay.internal.util.AlipaySignature;
-import com.yanwei.pay.alipay.internal.util.RequestParametersHolder;
-import com.yanwei.pay.alipay.internal.util.StreamUtil;
-import com.yanwei.pay.alipay.internal.util.StringUtils;
-import com.yanwei.pay.alipay.internal.util.json.JSONWriter;
+import com.yaozou.pay.alipay.internal.parser.json.ObjectJsonParser;
+import com.yaozou.pay.alipay.internal.util.AlipayHashMap;
+import com.yaozou.pay.alipay.internal.util.AlipayLogger;
+import com.yaozou.pay.alipay.internal.util.AlipaySignature;
+import com.yaozou.pay.alipay.internal.util.RequestParametersHolder;
+import com.yaozou.pay.alipay.internal.util.StreamUtil;
+import com.yaozou.pay.alipay.internal.util.StringUtils;
+import com.yaozou.pay.alipay.internal.util.json.JSONWriter;
 
 /**
  * 多媒体文件客户端
@@ -108,14 +108,14 @@ public class AlipayMobilePublicMultiMediaClient implements AlipayClient {
     }
 
     /** 
-     * @see com.yanwei.pay.alipay.AlipayClient#execute(com.yanwei.pay.alipay.AlipayRequest)
+     * @see com.yaozou.pay.alipay.AlipayClient#execute(com.yaozou.pay.alipay.AlipayRequest)
      */
     public <T extends AlipayResponse> T execute(AlipayRequest<T> request) throws AlipayApiException {
         return execute(request, null);
     }
 
     /** 
-     * @see com.yanwei.pay.alipay.AlipayClient#execute(com.yanwei.pay.alipay.AlipayRequest, String)
+     * @see com.yaozou.pay.alipay.AlipayClient#execute(com.yaozou.pay.alipay.AlipayRequest, String)
      */
     public <T extends AlipayResponse> T execute(AlipayRequest<T> request,
                                                 String accessToken) throws AlipayApiException {
@@ -124,7 +124,7 @@ public class AlipayMobilePublicMultiMediaClient implements AlipayClient {
     }
 
     /** 
-     * @see com.yanwei.pay.alipay.AlipayClient#execute(com.yanwei.pay.alipay.AlipayRequest, String, String, String)
+     * @see com.yaozou.pay.alipay.AlipayClient#execute(com.yaozou.pay.alipay.AlipayRequest, String, String, String)
      */
     public <T extends AlipayResponse> T execute(AlipayRequest<T> request, String accessToken,
                                                 String appAuthToken) throws AlipayApiException {

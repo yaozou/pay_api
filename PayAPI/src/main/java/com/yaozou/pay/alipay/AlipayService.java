@@ -1,15 +1,15 @@
-package com.yanwei.pay.alipay;
+package com.yaozou.pay.alipay;
 /**
  * created by yaozou on 2018/6/4
  */
 
-import com.yanwei.pay.alipay.config.AlipayConfig;
-import com.yanwei.pay.alipay.domain.AlipayTradeAppPayModel;
-import com.yanwei.pay.alipay.domain.AlipayTradeQueryModel;
-import com.yanwei.pay.alipay.domain.AlipayTradeRefundModel;
-import com.yanwei.pay.alipay.internal.util.AlipayHashMap;
-import com.yanwei.pay.alipay.request.AlipayTradePayRequest;
-import com.yanwei.pay.alipay.response.*;
+import com.yaozou.pay.alipay.config.AlipayConfig;
+import com.yaozou.pay.alipay.domain.AlipayTradeAppPayModel;
+import com.yaozou.pay.alipay.domain.AlipayTradeQueryModel;
+import com.yaozou.pay.alipay.domain.AlipayTradeRefundModel;
+import com.yaozou.pay.alipay.internal.util.AlipayHashMap;
+import com.yaozou.pay.alipay.request.AlipayTradePayRequest;
+import com.yaozou.pay.alipay.response.*;
 
 import java.util.HashMap;
 import java.util.Map;

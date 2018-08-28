@@ -1,10 +1,10 @@
-package com.yanwei.pay.alipay;
+package com.yaozou.pay.alipay;
 
 import java.io.Serializable;
 import java.util.Map;
 
-import com.yanwei.pay.alipay.internal.mapping.ApiField;
-import com.yanwei.pay.alipay.internal.util.StringUtils;
+import com.yaozou.pay.alipay.internal.mapping.ApiField;
+import com.yaozou.pay.alipay.internal.util.StringUtils;
 
 /**
  * API基础响应信息。

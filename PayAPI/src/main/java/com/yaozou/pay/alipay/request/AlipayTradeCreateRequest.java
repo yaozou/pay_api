@@ -1,12 +1,12 @@
-package com.yanwei.pay.alipay.request;
+package com.yaozou.pay.alipay.request;
 
-import com.yanwei.pay.alipay.domain.AlipayTradeCreateModel;
+import com.yaozou.pay.alipay.domain.AlipayTradeCreateModel;
 import java.util.Map;
 
-import com.yanwei.pay.alipay.AlipayRequest;
-import com.yanwei.pay.alipay.internal.util.AlipayHashMap;
-import com.yanwei.pay.alipay.response.AlipayTradeCreateResponse;
-import com.yanwei.pay.alipay.AlipayObject;
+import com.yaozou.pay.alipay.AlipayRequest;
+import com.yaozou.pay.alipay.internal.util.AlipayHashMap;
+import com.yaozou.pay.alipay.response.AlipayTradeCreateResponse;
+import com.yaozou.pay.alipay.AlipayObject;
 
 /**
  * ALIPAY API: alipay.trade.create request

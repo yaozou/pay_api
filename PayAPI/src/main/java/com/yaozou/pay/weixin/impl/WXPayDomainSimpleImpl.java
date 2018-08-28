@@ -1,7 +1,7 @@
-package com.yanwei.pay.weixin.impl;
-import com.yanwei.pay.weixin.IWXPayDomain;
-import com.yanwei.pay.weixin.WXPayConfig;
-import com.yanwei.pay.weixin.WXPayConstants;
+package com.yaozou.pay.weixin.impl;
+import com.yaozou.pay.weixin.IWXPayDomain;
+import com.yaozou.pay.weixin.WXPayConfig;
+import com.yaozou.pay.weixin.WXPayConstants;
 import org.apache.http.conn.ConnectTimeoutException;
 
 import java.net.UnknownHostException;

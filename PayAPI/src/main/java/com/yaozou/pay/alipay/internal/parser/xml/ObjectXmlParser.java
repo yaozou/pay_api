@@ -1,11 +1,11 @@
-package com.yanwei.pay.alipay.internal.parser.xml;
+package com.yaozou.pay.alipay.internal.parser.xml;
 
-import com.yanwei.pay.alipay.AlipayApiException;
-import com.yanwei.pay.alipay.AlipayParser;
-import com.yanwei.pay.alipay.AlipayRequest;
-import com.yanwei.pay.alipay.AlipayResponse;
-import com.yanwei.pay.alipay.SignItem;
-import com.yanwei.pay.alipay.internal.mapping.Converter;
+import com.yaozou.pay.alipay.AlipayApiException;
+import com.yaozou.pay.alipay.AlipayParser;
+import com.yaozou.pay.alipay.AlipayRequest;
+import com.yaozou.pay.alipay.AlipayResponse;
+import com.yaozou.pay.alipay.SignItem;
+import com.yaozou.pay.alipay.internal.mapping.Converter;
 
 /**
  * 单个JSON对象解释器。
@@ -31,7 +31,7 @@ public class ObjectXmlParser<T extends AlipayResponse> implements AlipayParser<T
     }
 
     /** 
-     * @see com.yanwei.pay.alipay.AlipayParser#getSignItem(com.yanwei.pay.alipay.AlipayRequest, String)
+     * @see com.yaozou.pay.alipay.AlipayParser#getSignItem(com.yaozou.pay.alipay.AlipayRequest, String)
      */
     public SignItem getSignItem(AlipayRequest<?> request, String responseBody)
                                                                               throws AlipayApiException {
@@ -42,7 +42,7 @@ public class ObjectXmlParser<T extends AlipayResponse> implements AlipayParser<T
     }
 
     /** 
-     * @see com.yanwei.pay.alipay.AlipayParser#encryptSourceData(com.yanwei.pay.alipay.AlipayRequest, String, String, String, String, String)
+     * @see com.yaozou.pay.alipay.AlipayParser#encryptSourceData(com.yaozou.pay.alipay.AlipayRequest, String, String, String, String, String)
      */
     public String encryptSourceData(AlipayRequest<?> request, String body, String format,
                                        String encryptType, String encryptKey, String charset)

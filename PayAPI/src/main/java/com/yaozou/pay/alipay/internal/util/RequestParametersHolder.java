@@ -1,4 +1,4 @@
-package com.yanwei.pay.alipay.internal.util;
+package com.yaozou.pay.alipay.internal.util;
 
 public class RequestParametersHolder {
 	private AlipayHashMap protocalMustParams;

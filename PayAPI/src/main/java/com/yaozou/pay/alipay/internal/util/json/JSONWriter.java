@@ -1,4 +1,4 @@
-package com.yanwei.pay.alipay.internal.util.json;
+package com.yaozou.pay.alipay.internal.util.json;
 
 import java.beans.BeanInfo;
 import java.beans.IntrospectionException;
@@ -19,10 +19,10 @@ import java.util.Map;
 import java.util.Stack;
 import java.util.TimeZone;
 
-import com.yanwei.pay.alipay.AlipayConstants;
-import com.yanwei.pay.alipay.internal.mapping.ApiField;
-import com.yanwei.pay.alipay.internal.mapping.ApiListField;
-import com.yanwei.pay.alipay.internal.util.AlipayLogger;
+import com.yaozou.pay.alipay.AlipayConstants;
+import com.yaozou.pay.alipay.internal.mapping.ApiField;
+import com.yaozou.pay.alipay.internal.mapping.ApiListField;
+import com.yaozou.pay.alipay.internal.util.AlipayLogger;
 
 public class JSONWriter {
 

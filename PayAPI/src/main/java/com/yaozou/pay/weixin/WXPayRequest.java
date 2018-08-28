@@ -1,4 +1,4 @@
-package com.yanwei.pay.weixin;
+package com.yaozou.pay.weixin;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;

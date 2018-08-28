@@ -1,10 +1,10 @@
-package com.yanwei.pay.alipay.config;
+package com.yaozou.pay.alipay.config;
 /**
  * created by yaozou on 2018/6/4
  */
 
-import com.yanwei.pay.alipay.AlipayConstants;
-import com.yanwei.pay.alipay.AlipayObject;
+import com.yaozou.pay.alipay.AlipayConstants;
+import com.yaozou.pay.alipay.AlipayObject;
 
 import java.util.Map;
 

@@ -1,7 +1,7 @@
-package com.yanwei.pay.alipay.domain;
+package com.yaozou.pay.alipay.domain;
 
-import com.yanwei.pay.alipay.AlipayObject;
-import com.yanwei.pay.alipay.internal.mapping.ApiField;
+import com.yaozou.pay.alipay.AlipayObject;
+import com.yaozou.pay.alipay.internal.mapping.ApiField;
 
 /**
  * 即时到账批量退款查询接口

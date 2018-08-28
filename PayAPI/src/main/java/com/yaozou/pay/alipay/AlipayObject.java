@@ -1,10 +1,10 @@
-package com.yanwei.pay.alipay;
+package com.yaozou.pay.alipay;
 
 import com.alibaba.fastjson.JSON;
-import com.yanwei.pay.alipay.domain.AlipayTradeAppPayModel;
-import com.yanwei.pay.alipay.domain.ExtUserInfo;
-import com.yanwei.pay.alipay.internal.mapping.ApiField;
-import com.yanwei.pay.alipay.internal.util.AlipayHashMap;
+import com.yaozou.pay.alipay.domain.AlipayTradeAppPayModel;
+import com.yaozou.pay.alipay.domain.ExtUserInfo;
+import com.yaozou.pay.alipay.internal.mapping.ApiField;
+import com.yaozou.pay.alipay.internal.util.AlipayHashMap;
 
 import java.io.Serializable;
 import java.lang.reflect.Field;

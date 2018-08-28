@@ -2,7 +2,7 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2012 All Rights Reserved.
  */
-package com.yanwei.pay.alipay.internal.util;
+package com.yaozou.pay.alipay.internal.util;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -23,9 +23,9 @@ import java.util.TreeMap;
 
 import javax.crypto.Cipher;
 
-import com.yanwei.pay.alipay.AlipayApiException;
-import com.yanwei.pay.alipay.AlipayConstants;
-import com.yanwei.pay.alipay.internal.util.codec.Base64;
+import com.yaozou.pay.alipay.AlipayApiException;
+import com.yaozou.pay.alipay.AlipayConstants;
+import com.yaozou.pay.alipay.internal.util.codec.Base64;
 
 /**
  * 

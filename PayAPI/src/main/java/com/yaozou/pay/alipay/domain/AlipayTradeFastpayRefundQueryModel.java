@@ -1,7 +1,7 @@
-package com.yanwei.pay.alipay.domain;
+package com.yaozou.pay.alipay.domain;
 
-import com.yanwei.pay.alipay.AlipayObject;
-import com.yanwei.pay.alipay.internal.mapping.ApiField;
+import com.yaozou.pay.alipay.AlipayObject;
+import com.yaozou.pay.alipay.internal.mapping.ApiField;
 
 /**
  * 商户可使用该接口查询自已通过alipay.trade.refund提交的退款请求是否执行成功。

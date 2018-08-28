@@ -1,4 +1,4 @@
-package com.yanwei.pay.alipay.internal.util.json;
+package com.yaozou.pay.alipay.internal.util.json;
 
 import java.text.CharacterIterator;
 import java.text.StringCharacterIterator;

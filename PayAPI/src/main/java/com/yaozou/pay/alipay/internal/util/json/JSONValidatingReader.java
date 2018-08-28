@@ -1,4 +1,4 @@
-package com.yanwei.pay.alipay.internal.util.json;
+package com.yaozou.pay.alipay.internal.util.json;
 
 public class JSONValidatingReader extends JSONReader {
     public static final Object INVALID = new Object();

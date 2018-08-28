@@ -1,4 +1,4 @@
-package com.yanwei.pay.alipay.internal.util;
+package com.yaozou.pay.alipay.internal.util;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -40,7 +40,7 @@ import org.w3c.dom.NodeList;
 import org.w3c.dom.Text;
 import org.xml.sax.SAXException;
 
-import com.yanwei.pay.alipay.AlipayApiException;
+import com.yaozou.pay.alipay.AlipayApiException;
 
 /**
  * Encapsulating XML common operations.

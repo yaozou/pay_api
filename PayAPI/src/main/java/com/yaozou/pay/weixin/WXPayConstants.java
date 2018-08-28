@@ -1,4 +1,4 @@
-package com.yanwei.pay.weixin;
+package com.yaozou.pay.weixin;
 
 /**
  * 常量

@@ -2,7 +2,7 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2012 All Rights Reserved.
  */
-package com.yanwei.pay.alipay;
+package com.yaozou.pay.alipay;
 
 import java.io.IOException;
 import java.security.Security;
@@ -13,17 +13,17 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.TimeZone;
 
-import com.yanwei.pay.alipay.internal.parser.json.ObjectJsonParser;
-import com.yanwei.pay.alipay.internal.parser.xml.ObjectXmlParser;
-import com.yanwei.pay.alipay.internal.util.AlipayEncrypt;
-import com.yanwei.pay.alipay.internal.util.AlipayHashMap;
-import com.yanwei.pay.alipay.internal.util.AlipayLogger;
-import com.yanwei.pay.alipay.internal.util.AlipaySignature;
-import com.yanwei.pay.alipay.internal.util.AlipayUtils;
-import com.yanwei.pay.alipay.internal.util.RequestParametersHolder;
-import com.yanwei.pay.alipay.internal.util.StringUtils;
-import com.yanwei.pay.alipay.internal.util.WebUtils;
-import com.yanwei.pay.alipay.internal.util.json.JSONWriter;
+import com.yaozou.pay.alipay.internal.parser.json.ObjectJsonParser;
+import com.yaozou.pay.alipay.internal.parser.xml.ObjectXmlParser;
+import com.yaozou.pay.alipay.internal.util.AlipayEncrypt;
+import com.yaozou.pay.alipay.internal.util.AlipayHashMap;
+import com.yaozou.pay.alipay.internal.util.AlipayLogger;
+import com.yaozou.pay.alipay.internal.util.AlipaySignature;
+import com.yaozou.pay.alipay.internal.util.AlipayUtils;
+import com.yaozou.pay.alipay.internal.util.RequestParametersHolder;
+import com.yaozou.pay.alipay.internal.util.StringUtils;
+import com.yaozou.pay.alipay.internal.util.WebUtils;
+import com.yaozou.pay.alipay.internal.util.json.JSONWriter;
 
 /**
  * 

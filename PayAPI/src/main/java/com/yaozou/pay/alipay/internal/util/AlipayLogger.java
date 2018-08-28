@@ -1,4 +1,4 @@
-package com.yanwei.pay.alipay.internal.util;
+package com.yaozou.pay.alipay.internal.util;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
@@ -19,8 +19,8 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.commons.logging.impl.Jdk14Logger;
 
-import com.yanwei.pay.alipay.AlipayConstants;
-import com.yanwei.pay.alipay.AlipayResponse;
+import com.yaozou.pay.alipay.AlipayConstants;
+import com.yaozou.pay.alipay.AlipayResponse;
 
 /**
  * 客户端日志

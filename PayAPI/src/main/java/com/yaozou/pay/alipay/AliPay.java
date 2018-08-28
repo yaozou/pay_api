@@ -1,18 +1,18 @@
-package com.yanwei.pay.alipay;/**
+package com.yaozou.pay.alipay;/**
  * created by yaozou on 2018/6/4
  */
 
 import com.alibaba.fastjson.JSON;
-import com.yanwei.pay.alipay.config.AlipayConfig;
-import com.yanwei.pay.alipay.internal.parser.json.JsonConverter;
-import com.yanwei.pay.alipay.request.AlipayTradeAppPayRequest;
-import com.yanwei.pay.alipay.request.AlipayTradeFastpayRefundQueryRequest;
-import com.yanwei.pay.alipay.request.AlipayTradeQueryRequest;
-import com.yanwei.pay.alipay.request.AlipayTradeRefundRequest;
-import com.yanwei.pay.alipay.response.AlipayTradeAppPayResponse;
-import com.yanwei.pay.alipay.response.AlipayTradeFastpayRefundQueryResponse;
-import com.yanwei.pay.alipay.response.AlipayTradeQueryResponse;
-import com.yanwei.pay.alipay.response.AlipayTradeRefundResponse;
+import com.yaozou.pay.alipay.config.AlipayConfig;
+import com.yaozou.pay.alipay.internal.parser.json.JsonConverter;
+import com.yaozou.pay.alipay.request.AlipayTradeAppPayRequest;
+import com.yaozou.pay.alipay.request.AlipayTradeFastpayRefundQueryRequest;
+import com.yaozou.pay.alipay.request.AlipayTradeQueryRequest;
+import com.yaozou.pay.alipay.request.AlipayTradeRefundRequest;
+import com.yaozou.pay.alipay.response.AlipayTradeAppPayResponse;
+import com.yaozou.pay.alipay.response.AlipayTradeFastpayRefundQueryResponse;
+import com.yaozou.pay.alipay.response.AlipayTradeQueryResponse;
+import com.yaozou.pay.alipay.response.AlipayTradeRefundResponse;
 
 import java.util.Map;
 

@@ -2,7 +2,7 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2015 All Rights Reserved.
  */
-package com.yanwei.pay.alipay.internal.mapping;
+package com.yaozou.pay.alipay.internal.mapping;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

@@ -1,10 +1,10 @@
-package com.yanwei.pay.alipay.domain;
+package com.yaozou.pay.alipay.domain;
 
 import java.util.List;
 
-import com.yanwei.pay.alipay.AlipayObject;
-import com.yanwei.pay.alipay.internal.mapping.ApiField;
-import com.yanwei.pay.alipay.internal.mapping.ApiListField;
+import com.yaozou.pay.alipay.AlipayObject;
+import com.yaozou.pay.alipay.internal.mapping.ApiField;
+import com.yaozou.pay.alipay.internal.mapping.ApiListField;
 
 /**
  * 收银员通过收银台或商户后台调用支付宝接口，生成二维码后，展示给伤脑筋户，由用户扫描二维码完成订单支付。

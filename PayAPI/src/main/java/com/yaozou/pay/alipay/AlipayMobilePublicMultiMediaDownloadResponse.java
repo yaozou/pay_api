@@ -2,9 +2,9 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2014 All Rights Reserved.
  */
-package com.yanwei.pay.alipay;
+package com.yaozou.pay.alipay;
 
-import com.yanwei.pay.alipay.internal.mapping.ApiField;
+import com.yaozou.pay.alipay.internal.mapping.ApiField;
 
 /**
  * ��ý���ļ�������Ӧ

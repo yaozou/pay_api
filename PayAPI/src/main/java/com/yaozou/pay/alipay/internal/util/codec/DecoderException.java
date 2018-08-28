@@ -16,7 +16,7 @@
 
 
 
-package com.yanwei.pay.alipay.internal.util.codec;
+package com.yaozou.pay.alipay.internal.util.codec;
 
 /**
  * Thrown when a Decoder has encountered a failure condition during a decode. 

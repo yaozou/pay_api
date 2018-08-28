@@ -1,4 +1,4 @@
-package com.yanwei.pay.alipay.internal.util;
+package com.yaozou.pay.alipay.internal.util;
 
 import java.net.Inet4Address;
 import java.net.InetAddress;
@@ -9,11 +9,11 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Map.Entry;
 
-import com.yanwei.pay.alipay.AlipayApiException;
-import com.yanwei.pay.alipay.AlipayResponse;
-import com.yanwei.pay.alipay.internal.parser.json.ObjectJsonParser;
-import com.yanwei.pay.alipay.internal.util.json.JSONReader;
-import com.yanwei.pay.alipay.internal.util.json.JSONValidatingReader;
+import com.yaozou.pay.alipay.AlipayApiException;
+import com.yaozou.pay.alipay.AlipayResponse;
+import com.yaozou.pay.alipay.internal.parser.json.ObjectJsonParser;
+import com.yaozou.pay.alipay.internal.util.json.JSONReader;
+import com.yaozou.pay.alipay.internal.util.json.JSONValidatingReader;
 
 /**
  * 系统工具类。

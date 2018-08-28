@@ -1,12 +1,12 @@
-package com.yanwei.pay.alipay.request;
+package com.yaozou.pay.alipay.request;
 
-import com.yanwei.pay.alipay.domain.AlipayTradeRefundModel;
+import com.yaozou.pay.alipay.domain.AlipayTradeRefundModel;
 import java.util.Map;
 
-import com.yanwei.pay.alipay.AlipayRequest;
-import com.yanwei.pay.alipay.internal.util.AlipayHashMap;
-import com.yanwei.pay.alipay.response.AlipayTradeRefundResponse;
-import com.yanwei.pay.alipay.AlipayObject;
+import com.yaozou.pay.alipay.AlipayRequest;
+import com.yaozou.pay.alipay.internal.util.AlipayHashMap;
+import com.yaozou.pay.alipay.response.AlipayTradeRefundResponse;
+import com.yaozou.pay.alipay.AlipayObject;
 
 /**
  * ALIPAY API: alipay.trade.refund request

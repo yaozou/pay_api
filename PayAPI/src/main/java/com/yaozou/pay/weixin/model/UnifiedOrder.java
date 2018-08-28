@@ -1,4 +1,4 @@
-package com.yanwei.pay.weixin.model;/**
+package com.yaozou.pay.weixin.model;/**
  * created by yaozou on 2018/5/21
  */
 

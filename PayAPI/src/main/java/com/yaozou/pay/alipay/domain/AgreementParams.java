@@ -1,7 +1,7 @@
-package com.yanwei.pay.alipay.domain;
+package com.yaozou.pay.alipay.domain;
 
-import com.yanwei.pay.alipay.AlipayObject;
-import com.yanwei.pay.alipay.internal.mapping.ApiField;
+import com.yaozou.pay.alipay.AlipayObject;
+import com.yaozou.pay.alipay.internal.mapping.ApiField;
 
 /**
  * 用于传递用户和支付宝的协议相关信息，json格式

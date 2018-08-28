@@ -16,7 +16,7 @@
 
 
 
-package com.yanwei.pay.alipay.internal.util.codec;
+package com.yaozou.pay.alipay.internal.util.codec;
 
 /**
  * <p>Provides the highest level of abstraction for Decoders.

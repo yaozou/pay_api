@@ -1,4 +1,4 @@
-package com.yanwei.pay.alipay;
+package com.yaozou.pay.alipay;
 
 import java.util.Map;
 

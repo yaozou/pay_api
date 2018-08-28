@@ -1,4 +1,4 @@
-package com.yanwei.pay.alipay.internal.mapping;
+package com.yaozou.pay.alipay.internal.mapping;
 
 import java.beans.BeanInfo;
 import java.beans.Introspector;
@@ -16,10 +16,10 @@ import java.util.List;
 import java.util.Set;
 import java.util.TimeZone;
 
-import com.yanwei.pay.alipay.AlipayApiException;
-import com.yanwei.pay.alipay.AlipayConstants;
-import com.yanwei.pay.alipay.AlipayResponse;
-import com.yanwei.pay.alipay.internal.util.StringUtils;
+import com.yaozou.pay.alipay.AlipayApiException;
+import com.yaozou.pay.alipay.AlipayConstants;
+import com.yaozou.pay.alipay.AlipayResponse;
+import com.yaozou.pay.alipay.internal.util.StringUtils;
 
 /**
  * 转换工具类。

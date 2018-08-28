@@ -1,11 +1,11 @@
-package com.yanwei.pay.alipay.request;
+package com.yaozou.pay.alipay.request;
 
 import java.util.Map;
 
-import com.yanwei.pay.alipay.AlipayRequest;
-import com.yanwei.pay.alipay.internal.util.AlipayHashMap;
-import com.yanwei.pay.alipay.response.AlipayTradeCustomsQueryResponse;
-import com.yanwei.pay.alipay.AlipayObject;
+import com.yaozou.pay.alipay.AlipayRequest;
+import com.yaozou.pay.alipay.internal.util.AlipayHashMap;
+import com.yaozou.pay.alipay.response.AlipayTradeCustomsQueryResponse;
+import com.yaozou.pay.alipay.AlipayObject;
 
 /**
  * ALIPAY API: alipay.trade.customs.query request

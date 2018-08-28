@@ -1,9 +1,9 @@
-package com.yanwei.pay.alipay.internal.util;
+package com.yaozou.pay.alipay.internal.util;
 
 import java.io.IOException;
 
-import com.yanwei.pay.alipay.AlipayApiException;
-import com.yanwei.pay.alipay.FileItem;
+import com.yaozou.pay.alipay.AlipayApiException;
+import com.yaozou.pay.alipay.FileItem;
 
 public class RequestCheckUtils {
     public static final String ERROR_CODE_ARGUMENTS_MISS    = "40001"; //Missing Required Arguments

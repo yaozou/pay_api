@@ -16,7 +16,7 @@
 
 
 
-package com.yanwei.pay.alipay.internal.util.codec;
+package com.yaozou.pay.alipay.internal.util.codec;
 
 /**
  * Defines common encoding methods for byte array encoders.

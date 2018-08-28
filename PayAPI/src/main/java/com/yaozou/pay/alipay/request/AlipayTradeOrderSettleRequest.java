@@ -1,12 +1,12 @@
-package com.yanwei.pay.alipay.request;
+package com.yaozou.pay.alipay.request;
 
-import com.yanwei.pay.alipay.domain.AlipayTradeOrderSettleModel;
+import com.yaozou.pay.alipay.domain.AlipayTradeOrderSettleModel;
 import java.util.Map;
 
-import com.yanwei.pay.alipay.AlipayRequest;
-import com.yanwei.pay.alipay.internal.util.AlipayHashMap;
-import com.yanwei.pay.alipay.response.AlipayTradeOrderSettleResponse;
-import com.yanwei.pay.alipay.AlipayObject;
+import com.yaozou.pay.alipay.AlipayRequest;
+import com.yaozou.pay.alipay.internal.util.AlipayHashMap;
+import com.yaozou.pay.alipay.response.AlipayTradeOrderSettleResponse;
+import com.yaozou.pay.alipay.AlipayObject;
 
 /**
  * ALIPAY API: alipay.trade.order.settle request

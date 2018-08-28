@@ -3,8 +3,8 @@ package weixin;
  * created by yaozou on 2018/5/21
  */
 
-import com.yanwei.pay.weixin.WXPayService;
-import com.yanwei.pay.weixin.model.*;
+import com.yaozou.pay.weixin.WXPayService;
+import com.yaozou.pay.weixin.model.*;
 import org.junit.Test;
 
 import java.util.HashMap;

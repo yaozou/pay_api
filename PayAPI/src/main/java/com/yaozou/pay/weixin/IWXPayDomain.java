@@ -1,4 +1,4 @@
-package com.yanwei.pay.weixin;
+package com.yaozou.pay.weixin;
 
 /**
  * 域名管理，实现主备域名自动切换

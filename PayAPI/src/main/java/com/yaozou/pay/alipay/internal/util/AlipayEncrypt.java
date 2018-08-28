@@ -2,7 +2,7 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2016 All Rights Reserved.
  */
-package com.yanwei.pay.alipay.internal.util;
+package com.yaozou.pay.alipay.internal.util;
 
 import java.security.GeneralSecurityException;
 
@@ -10,8 +10,8 @@ import javax.crypto.Cipher;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 
-import com.yanwei.pay.alipay.AlipayApiException;
-import com.yanwei.pay.alipay.internal.util.codec.Base64;
+import com.yaozou.pay.alipay.AlipayApiException;
+import com.yaozou.pay.alipay.internal.util.codec.Base64;
 
 /**
  *  加密工具

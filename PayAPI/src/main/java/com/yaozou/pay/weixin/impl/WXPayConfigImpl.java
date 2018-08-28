@@ -1,7 +1,7 @@
-package com.yanwei.pay.weixin.impl;
+package com.yaozou.pay.weixin.impl;
 
-import com.yanwei.pay.weixin.IWXPayDomain;
-import com.yanwei.pay.weixin.WXPayConfig;
+import com.yaozou.pay.weixin.IWXPayDomain;
+import com.yaozou.pay.weixin.WXPayConfig;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;

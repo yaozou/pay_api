@@ -1,4 +1,4 @@
-package com.yanwei.pay.alipay.internal.util;
+package com.yaozou.pay.alipay.internal.util;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.TimeZone;
 
-import com.yanwei.pay.alipay.AlipayConstants;
+import com.yaozou.pay.alipay.AlipayConstants;
 
 /**
  * 纯字符串字典结构。

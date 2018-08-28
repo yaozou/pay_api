@@ -1,9 +1,9 @@
-package com.yanwei.pay.alipay.internal.mapping;
+package com.yaozou.pay.alipay.internal.mapping;
 
-import com.yanwei.pay.alipay.AlipayApiException;
-import com.yanwei.pay.alipay.AlipayRequest;
-import com.yanwei.pay.alipay.AlipayResponse;
-import com.yanwei.pay.alipay.SignItem;
+import com.yaozou.pay.alipay.AlipayApiException;
+import com.yaozou.pay.alipay.AlipayRequest;
+import com.yaozou.pay.alipay.AlipayResponse;
+import com.yaozou.pay.alipay.SignItem;
 
 /**
  * 动态格式转换器。

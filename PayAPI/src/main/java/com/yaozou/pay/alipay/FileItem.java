@@ -1,4 +1,4 @@
-package com.yanwei.pay.alipay;
+package com.yaozou.pay.alipay;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -6,7 +6,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-import com.yanwei.pay.alipay.internal.util.AlipayUtils;
+import com.yaozou.pay.alipay.internal.util.AlipayUtils;
 
 /**
  * 文件元数据。

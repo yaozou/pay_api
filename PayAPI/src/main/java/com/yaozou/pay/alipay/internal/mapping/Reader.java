@@ -1,8 +1,8 @@
-package com.yanwei.pay.alipay.internal.mapping;
+package com.yaozou.pay.alipay.internal.mapping;
 
 import java.util.List;
 
-import com.yanwei.pay.alipay.AlipayApiException;
+import com.yaozou.pay.alipay.AlipayApiException;
 
 /**
  * 格式转换器。

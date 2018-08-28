@@ -1,4 +1,4 @@
-package com.yanwei.pay.alipay.internal.mapping;
+package com.yaozou.pay.alipay.internal.mapping;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

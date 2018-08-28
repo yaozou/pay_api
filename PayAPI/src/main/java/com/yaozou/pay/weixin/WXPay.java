@@ -1,4 +1,4 @@
-package com.yanwei.pay.weixin;
+package com.yaozou.pay.weixin;
 
 import java.util.HashMap;
 import java.util.Map;

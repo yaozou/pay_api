@@ -1,4 +1,4 @@
-package com.yanwei.pay.alipay.internal.parser.json;
+package com.yaozou.pay.alipay.internal.parser.json;
 
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -9,20 +9,20 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
-import com.yanwei.pay.alipay.AlipayApiException;
-import com.yanwei.pay.alipay.AlipayConstants;
-import com.yanwei.pay.alipay.AlipayRequest;
-import com.yanwei.pay.alipay.AlipayResponse;
-import com.yanwei.pay.alipay.ResponseParseItem;
-import com.yanwei.pay.alipay.SignItem;
-import com.yanwei.pay.alipay.internal.mapping.Converter;
-import com.yanwei.pay.alipay.internal.mapping.Converters;
-import com.yanwei.pay.alipay.internal.mapping.Reader;
-import com.yanwei.pay.alipay.internal.util.AlipayEncrypt;
-import com.yanwei.pay.alipay.internal.util.StringUtils;
-import com.yanwei.pay.alipay.internal.util.json.ExceptionErrorListener;
-import com.yanwei.pay.alipay.internal.util.json.JSONReader;
-import com.yanwei.pay.alipay.internal.util.json.JSONValidatingReader;
+import com.yaozou.pay.alipay.AlipayApiException;
+import com.yaozou.pay.alipay.AlipayConstants;
+import com.yaozou.pay.alipay.AlipayRequest;
+import com.yaozou.pay.alipay.AlipayResponse;
+import com.yaozou.pay.alipay.ResponseParseItem;
+import com.yaozou.pay.alipay.SignItem;
+import com.yaozou.pay.alipay.internal.mapping.Converter;
+import com.yaozou.pay.alipay.internal.mapping.Converters;
+import com.yaozou.pay.alipay.internal.mapping.Reader;
+import com.yaozou.pay.alipay.internal.util.AlipayEncrypt;
+import com.yaozou.pay.alipay.internal.util.StringUtils;
+import com.yaozou.pay.alipay.internal.util.json.ExceptionErrorListener;
+import com.yaozou.pay.alipay.internal.util.json.JSONReader;
+import com.yaozou.pay.alipay.internal.util.json.JSONValidatingReader;
 
 /**
  * JSON格式转换器。
@@ -138,7 +138,7 @@ public class JsonConverter implements Converter {
     }
 
     /** 
-     * @see com.yanwei.pay.alipay.internal.mapping.Converter#getSignItem(com.yanwei.pay.alipay.AlipayRequest, String)
+     * @see com.yaozou.pay.alipay.internal.mapping.Converter#getSignItem(com.yaozou.pay.alipay.AlipayRequest, String)
      */
     public SignItem getSignItem(AlipayRequest<?> request, String responseBody)
                                                                               throws AlipayApiException {
@@ -234,7 +234,7 @@ public class JsonConverter implements Converter {
     }
 
     /** 
-     * @see com.yanwei.pay.alipay.internal.mapping.Converter#encryptSourceData(com.yanwei.pay.alipay.AlipayRequest, String, String, String, String, String)
+     * @see com.yaozou.pay.alipay.internal.mapping.Converter#encryptSourceData(com.yaozou.pay.alipay.AlipayRequest, String, String, String, String, String)
      */
     public String encryptSourceData(AlipayRequest<?> request, String body, String format,
                                     String encryptType, String encryptKey, String charset)
